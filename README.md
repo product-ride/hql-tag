@@ -1,10 +1,10 @@
 ## hql-tag
 
-`hql-tag` is a Hasura specific wrapper over `graphql-tag`. In Hasura GraphQL backend, we can query data with arguments directly without adding to backend schema using `where` argument and sort data using `order_by` argument. However, in a real-world query involving multiple `where` conditions on multiple arguments, the query starts is not that readable. 
+`hql-tag` is a Hasura specific wrapper over `graphql-tag`. In Hasura GraphQL backend, we can query data with arguments directly without adding to backend schema using `where` argument and sort data using `order_by` argument. However, in a real-world query involving multiple `where` conditions on multiple arguments, the queries are not that readable. 
 
 `hql-tag` solves this issue by providing shorthand way of writing `where` and `order_by` arguments.
 
-[DEMO] (https://codesandbox.io/s/hardcore-tdd-d9o1s?file=/src/App.js) - Link to codesandbox to compare and play around with `graphql-tag` & `hql-tag`
+[DEMO](https://codesandbox.io/s/hardcore-tdd-d9o1s?file=/src/App.js) - Link to codesandbox to compare and play around with `graphql-tag` & `hql-tag`
 
 > Note: This library works fine with all the GraphQL Client frameworks that works with `graphql-tag`.
 
