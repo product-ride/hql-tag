@@ -80,12 +80,13 @@ const elegantHasuraQuery = gql`
 - orderOperator can be either `ord`(short form) or `order`.
 - After adding all arguments, you are done migrating
 
+#### Visit [hql-cli](https://github.com/product-ride/hql-cli) to enjoy GraphiQL support in single command
+
 ### Roadmap
 
 - Babel plugin
 - Optimize bundle size
 - Apollo Middleware
-- GraphiQL support
 
 ### Community
 
