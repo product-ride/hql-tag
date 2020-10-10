@@ -94,5 +94,5 @@ const elegantHasuraQuery = gql`
 
 ### Community
 
-The creator of the library are always open to discussions/suggestions. 
+The creator of the library is always open to discussions/suggestions. 
 Vilva Athiban [Twitter](https://twitter.com/vilvaathibanpb)
