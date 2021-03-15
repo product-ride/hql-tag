@@ -1,6 +1,6 @@
 {
   "name": "hql-tag",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "repository": "https://github.com/product-ride/hql-tag.git",
   "description": "A Hasura specific wrapper on graphql-tag for writing elegant queries",
