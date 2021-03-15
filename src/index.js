@@ -69,7 +69,7 @@ function processArguements(node, parent, key, index) {
         // Add current node to delete list
         deleteArguementsIndex.push(index);
 
-        // Check If the current field already exist in where clause
+        // Check If the current field already exist in the where clause
         if (FieldObjIndex > -1) {
           // Add new condition for the existing field
           parent.arguments[whereObjIndex].value.fields[
